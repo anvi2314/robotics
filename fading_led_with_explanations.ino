@@ -1,8 +1,8 @@
 
-#define fade 3           //Giving the name fade to the LED which is set on pin 3
+#define fade 3           //Giving the name fade to the LED which is set on pin 3. Define is a macro meaning wherever you find fade replace it with pin 3.
 
 int i;                  // int i is a global integer variable to i 
-void setup() {         // Anything inside the void seup runs once 
+void setup() {         // Anything inside the void setup runs once 
   pinMode(fade, OUTPUT); // It basically says that the pin 3 will be used as an output
 }
 
